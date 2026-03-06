@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="URBN LABS - Privacy Policy, Terms of Agreement, and Data Deletion Requests.">
+    <title>Policies - URBN LABS</title>
+    <!-- Load Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Plus Jakarta Sans for a premium look -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            scroll-behavior: smooth;
+            background-color: #f8fafc;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .nav-link.active {
+            font-weight: 700;
+            color: #2563eb;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#2563eb',
+                        'primary-dark': '#1e40af',
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="text-gray-800 antialiased overflow-x-hidden pt-16">
+
+    <!-- Navigation Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 glass-card">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo/Brand -->
+                <a href="../index.html"
+                    class="flex items-center text-2xl font-extrabold text-primary hover:text-primary-dark transition duration-150">
+                    <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                    </svg>
+                    URBN LABS
+                </a>
+
+                <!-- Navigation Links -->
+                <nav class="hidden md:flex space-x-8 items-center">
+                    <a href="#terms-of-agreement"
+                        class="nav-link text-gray-600 hover:text-primary py-2 transition duration-150 font-medium tracking-wide">Terms
+                        of Agreement</a>
+                    <a href="#data-deletion"
+                        class="nav-link text-gray-600 hover:text-primary py-2 transition duration-150 font-medium tracking-wide">Data
+                        Deletion</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-primary focus:outline-none"
+                        aria-label="Toggle mobile menu">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path id="menu-icon-bars" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7"></path>
+                            <path id="menu-icon-close" class="hidden" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- Mobile Menu Dropdown -->
+            <div id="mobile-menu" class="hidden md:hidden pb-4 border-t border-gray-100 mt-2">
+                <nav class="flex flex-col space-y-4 pt-4">
+                    <a href="../index.html"
+                        class="text-gray-600 font-medium text-lg text-center mx-auto w-full py-2 hover:bg-gray-50 rounded-lg">Home</a>
+                    <a href="#terms-of-agreement" onclick="toggleMobileMenu();"
+                        class="text-gray-600 font-medium text-lg text-center mx-auto w-full py-2 hover:bg-gray-50 rounded-lg">Terms
+                        of Agreement</a>
+                    <a href="#data-deletion" onclick="toggleMobileMenu();"
+                        class="text-gray-600 font-medium text-lg text-center mx-auto w-full py-2 hover:bg-gray-50 rounded-lg">Data
+                        Deletion</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="relative bg-[#f8fafc] min-h-screen pb-20">
+
+        <!-- Decorative background elements -->
+        <div
+            class="fixed top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-blue-400 opacity-10 blur-3xl -z-10 tracking-wide pointer-events-none">
+        </div>
+        <div
+            class="fixed bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-purple-400 opacity-10 blur-3xl -z-10 tracking-wide pointer-events-none">
+        </div>
+
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
+            <div class="text-center mb-16">
+                <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 tracking-tight mb-4">Policies & Trust</h1>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto font-medium">Clear formatting for our Terms of
+                    Agreement and Data Deletion guidelines across all URBN LABS applications.</p>
+            </div>
+
+            <div class="space-y-12">
+                <!-- Terms of Agreement -->
+                <section id="terms-of-agreement" class="scroll-mt-24">
+                    <div class="glass-card bg-white p-8 sm:p-12 rounded-[2rem] border border-gray-200">
+                        <h2 class="text-3xl font-extrabold text-gray-900 mb-2">Terms of Agreement (ToA)</h2>
+                        <p class="text-sm text-gray-500 mb-8 font-medium">Last Updated: March 7, 2026</p>
+
+                        <div class="space-y-8">
+                            <p class="text-gray-600 leading-relaxed">
+                                Welcome to URBN LABS. These blanket Terms of Agreement apply to all mobile and web
+                                applications developed and operated by URBN LABS, including but not limited to <b>School
+                                    Connect</b>, <b>Society Connect</b>, and our upcoming tools.
+                            </p>
+
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 flex items-center mb-3">
+                                    <span
+                                        class="w-8 h-8 rounded-full bg-blue-100 text-primary flex items-center justify-center text-sm mr-3">1</span>
+                                    Acceptance of Terms
+                                </h3>
+                                <p class="text-gray-600 leading-relaxed pl-11">
+                                    By accessing or using our applications ("the Services"), you agree to be bound by
+                                    these Terms of Agreement. If you disagree with any part of the terms, you may not
+                                    access the Services. These terms apply to all visitors, users, residents, admins,
+                                    staff, and any others who access or use the Services.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 flex items-center mb-3">
+                                    <span
+                                        class="w-8 h-8 rounded-full bg-blue-100 text-primary flex items-center justify-center text-sm mr-3">2</span>
+                                    Intellectual Property
+                                </h3>
+                                <p class="text-gray-600 leading-relaxed pl-11">
+                                    The Services and their original content, features, functionalities, structure, and
+                                    design are the exclusive property of URBN LABS and its licensors. Our intellectual
+                                    property may not be used, copied, or reproduced in connection with any product or
+                                    service without the prior written consent of URBN LABS.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 flex items-center mb-3">
+                                    <span
+                                        class="w-8 h-8 rounded-full bg-blue-100 text-primary flex items-center justify-center text-sm mr-3">3</span>
+                                    User Accounts & Responsibilities
+                                </h3>
+                                <p class="text-gray-600 leading-relaxed pl-11 mb-2">
+                                    If the Service requires you to create an account, you must provide accurate,
+                                    complete, and current information.
+                                    <b>You are strictly responsible for:</b>
+                                </p>
+                                <ul class="list-disc text-gray-600 leading-relaxed pl-16 space-y-1">
+                                    <li>Safeguarding your password and credentials.</li>
+                                    <li>Any activities or actions taking place under your account.</li>
+                                    <li>Notifying us immediately upon becoming aware of any breach of security or
+                                        unauthorized use of your account.</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 flex items-center mb-3">
+                                    <span
+                                        class="w-8 h-8 rounded-full bg-blue-100 text-primary flex items-center justify-center text-sm mr-3">4</span>
+                                    Data Privacy & Usage
+                                </h3>
+                                <p class="text-gray-600 leading-relaxed pl-11">
+                                    Your privacy is critical to us. We collect data essential for providing app
+                                    functionalities (like notification routing, role validation, or directory listings).
+                                    We do not sell your personal data to third parties. For data deletion procedures,
+                                    please refer to the Data Deletion section below.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 flex items-center mb-3">
+                                    <span
+                                        class="w-8 h-8 rounded-full bg-blue-100 text-primary flex items-center justify-center text-sm mr-3">5</span>
+                                    Links to Third-Party Services
+                                </h3>
+                                <p class="text-gray-600 leading-relaxed pl-11">
+                                    Our Services may contain links to third-party web sites or services (e.g., payment
+                                    gateways) that are not owned or controlled by URBN LABS. We assume no responsibility
+                                    for the content, privacy policies, or practices of any third-party providers.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 flex items-center mb-3">
+                                    <span
+                                        class="w-8 h-8 rounded-full bg-blue-100 text-primary flex items-center justify-center text-sm mr-3">6</span>
+                                    Termination & Amendments
+                                </h3>
+                                <p class="text-gray-600 leading-relaxed pl-11">
+                                    We may terminate or suspend access to our Services immediately, without prior
+                                    notice, for any violation of these Terms or for operational reasons. We reserve the
+                                    right to modify these Terms at any time; continued use constitutes acceptance of
+                                    amendments.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Data Deletion Request -->
+                <section id="data-deletion" class="scroll-mt-24">
+                    <div class="glass-card bg-white p-8 sm:p-12 rounded-[2rem] border-t-4 border-red-500 shadow-md">
+                        <h2 class="text-3xl font-extrabold text-gray-900 mb-6">Data Deletion Request</h2>
+                        <p class="text-gray-700 mb-8 text-lg font-medium leading-relaxed">
+                            Under the prevailing data protection frameworks, you have the right to request the complete
+                            erasure of your personal data from any URBN LABS platform. To initiate a permanent deletion
+                            request, please follow these instructions:
+                        </p>
+
+                        <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100 mb-8">
+                            <h3 class="font-bold text-gray-900 mb-4">Required Information for Deletion:</h3>
+                            <ul class="space-y-4 text-gray-700">
+                                <li class="flex items-center"><span class="text-red-500 font-bold mr-3">&bull;</span>
+                                    <span class="text-base"><b>App Name:</b> Specify the app (e.g., Society
+                                        Connect)</span>
+                                </li>
+                                <li class="flex items-center"><span class="text-red-500 font-bold mr-3">&bull;</span>
+                                    <span class="text-base"><b>Account Identifier:</b> Registered phone number or Email
+                                        ID</span>
+                                </li>
+                                <li class="flex items-center"><span class="text-gray-400 font-bold mr-3">&bull;</span>
+                                    <span class="text-base"><b>Reason for Deletion:</b> <i
+                                            class="text-gray-500">(Optional) Helps us improve</i></span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <p class="text-gray-600 text-sm italic mb-6">Note: Data deletion is permanent and irreversible.
+                            Associated records such as financial receipts may be retained solely for legal compliance.
+                        </p>
+
+                        <div
+                            class="flex flex-col sm:flex-row gap-4 items-center justify-center mt-8 pt-6 border-t border-gray-100">
+                            <a href="mailto:help.urbnlabs@gmail.com?subject=Data%20Deletion%20Request&body=App%20Name%3A%20%0AAccount%20Identifier%3A%20%0AReason%20for%20Deletion%3A%20"
+                                class="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-red-600 text-white font-bold rounded-xl shadow-md hover:bg-red-700 transition duration-300 transform hover:-translate-y-1">
+                                <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                    </path>
+                                </svg>
+                                Send Deletion Email
+                            </a>
+                            <span class="text-gray-500 font-medium font-sm">or reach out to <a
+                                    href="mailto:help.urbnlabs@gmail.com"
+                                    class="text-primary hover:underline">help.urbnlabs@gmail.com</a> directly.</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white mt-auto border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex flex-col items-center text-center gap-4">
+            <a href="../index.html"
+                class="text-xl font-extrabold text-white inline-flex items-center opacity-90 transition hover:opacity-100">
+                <svg class="w-5 h-5 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                </svg>
+                URBN LABS
+            </a>
+            <p class="text-sm text-gray-500 font-medium hover:text-gray-400 transition">&copy; <span
+                    id="current-year"></span> URBN LABS. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Mobile Menu Toggle Function
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            const barsIcon = document.getElementById('menu-icon-bars');
+            const closeIcon = document.getElementById('menu-icon-close');
+
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+                barsIcon.classList.add('hidden');
+                closeIcon.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+                barsIcon.classList.remove('hidden');
+                closeIcon.classList.add('hidden');
+            }
+        }
+
+        // Attach event listener to mobile menu button if it exists
+        const mobileBtn = document.getElementById('mobile-menu-button');
+        if (mobileBtn) {
+            mobileBtn.addEventListener('click', toggleMobileMenu);
+        }
+    </script>
+</body>
+
+</html>
